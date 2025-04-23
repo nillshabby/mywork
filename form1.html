@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=width-device" initial-scale="1.0">
+    <head>
+        <title>MY FORM</title>
+    </head>
+    <body>
+        <style>
+            body{
+                padding-right: 200px; 
+                padding-left: 200px;  
+                background-color: lightgrey;
+            }
+        </style>
+    </body>
+    <fieldset>
+    <legend>PIZZA ORDER FORM</legend>
+        <fieldset>
+        <legend>Delivery Address</legend>
+            Full Name:<input type="text" name="name" placeholder="Fullname"> Stree Address:<input type="text" name="address" placeholder="Address"><br><br>
+            Phone:<input type="text" name="phone" placeholder="phone"> Email:<input type="email" name="email" placeholder="Email"><br><br>
+            Password:<input type="password" name="Password" placeholder="Password"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Information</legend>
+            Card Type:<select>
+                <option>Visa</option>
+                <option>Tembo</option>
+                <option>Umoja</option>
+            </select>
+            Card Number:<input type="text" name="card number" placeholder="Card Number"><br><br>
+            None on Card:<input type="text" name="None on Card" placeholder="None"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Customize Your Pizza</legend>
+            Pizza size:<select>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>small</option>
+            </select>
+            Quantity:<input type="int" name="Quantity"><br><br>
+            Spices: Black pepper<input type="checkbox" name="black pepper">
+            Bell pepper<input type="checkbox" name="bell pepper">
+            mayonnaise<input type="checkbox" name="mayonnaise"><br><br>
+            Other Requirement<textarea cols="20" rows="4" placeholder=" Other Requirement"></textarea>
+            Meat 
+            fish<input type="checkbox" name="fish"> Cow<input type="checkbox" name="cow"> Chicken<input type="checkbox" name="chicken">
+        </fieldset>
+        <br><input type="button" value="Clear Order">
+        <input type="button" value="Place Order">
+
+</fieldset>
+  
+
+    
+</html>
